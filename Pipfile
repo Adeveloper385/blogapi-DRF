@@ -11,6 +11,8 @@ django-allauth = "*"
 pyyaml = "*"
 uritemplate = "*"
 drf-yasg = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
 
 [dev-packages]
 pylint = "*"
