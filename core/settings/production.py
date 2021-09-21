@@ -1,6 +1,5 @@
 from .base import *
 import os
-import django_heroku
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -22,4 +21,3 @@ DATABASES = {
 }
 
 STATIC_URL = '/static/'
-django_heroku.setttings(locals())
